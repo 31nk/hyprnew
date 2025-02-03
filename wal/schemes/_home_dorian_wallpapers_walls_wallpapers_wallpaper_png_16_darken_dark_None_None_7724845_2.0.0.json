@@ -1,0 +1,28 @@
+{
+    "checksum": "650ca5387df665a84ef51cf19b67c7fa",
+    "wallpaper": "/home/dorian/wallpapers/walls/wallpapers/wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#242c3a",
+        "foreground": "#c8cacd",
+        "cursor": "#c8cacd"
+    },
+    "colors": {
+        "color0": "#242c3a",
+        "color1": "#37506b",
+        "color2": "#4e457e",
+        "color3": "#4e3f99",
+        "color4": "#703971",
+        "color5": "#a9397d",
+        "color6": "#893d9f",
+        "color7": "#9ca0a5",
+        "color8": "#6b7382",
+        "color9": "#4A6B8F",
+        "color10": "#685CA9",
+        "color11": "#6955CD",
+        "color12": "#964D97",
+        "color13": "#E24CA7",
+        "color14": "#B752D5",
+        "color15": "#c8cacd"
+    }
+}

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/dorian/wallpapers/walls/wallhaven-xlx51z.jpg"
+let background = "#0a0c0c"
+let foreground = "#c1c2c2"
+let cursor     = "#c1c2c2"
+
+" Colors
+let color0  = "#0a0c0c"
+let color1  = "#302e33"
+let color2  = "#2c333f"
+let color3  = "#2c374b"
+let color4  = "#39393c"
+let color5  = "#4b423f"
+let color6  = "#3d404a"
+let color7  = "#8a9696"
+let color8  = "#566969"
+let color9  = "#413E44"
+let color10 = "#3B4455"
+let color11 = "#3B4A65"
+let color12 = "#4D4C51"
+let color13 = "#645954"
+let color14 = "#525663"
+let color15 = "#c1c2c2"
