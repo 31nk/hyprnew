@@ -30,12 +30,12 @@
     },
     "custom/notification": {
         "tooltip": false,
-        "format": "",
+        "format": "  ",
         "on-click": "swaync-client -t -sw",
         "escape": true
     },
     "clock": {
-        "format": "{:%I:%M:%S %p}",
+        "format": "{:%a %d %I:%M:%S %p}",
         "interval": 1,
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
