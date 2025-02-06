@@ -2,6 +2,8 @@
     "layer": "top",
     "position": "top",
     "reload_style_on_change": true,
+    "exclusive": true,
+    "margin": 5,
     "modules-left": [
         "custom/notification",
         "hyprland/workspaces",
@@ -11,7 +13,8 @@
         "mpris"
     ],
     "modules-right": [
-        "wireplumber",    // Moved volume module to the front of the right-side
+        "temperature",
+        "wireplumber",
         "cpu",
         "memory",
         "clock",
@@ -104,12 +107,13 @@
         "on-click": "kitty btop"
     },
     "memory": {
-        "format": "",
+        "format": " ",
         "on-click": "kitty btop"
     },
     "temperature": {
         "critical-threshold": 80,
-        "format": ""
+        "format": "{temperature}°C ",
+        "tooltip": true
     },
     "tray": {
         "icon-size": 14,
@@ -125,7 +129,8 @@
     "mpris": {
         "format": "{title} - {artist}",
         "format-muted": "Muted",
-        "on-click": "kitty mpsyt",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next",
         "tooltip-format": "Album: {album}\nArtist: {artist}\nTitle: {title}"
     }
 }
